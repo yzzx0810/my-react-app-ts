@@ -1,0 +1,57 @@
+{
+  "name": "my-react-app-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve:fat": "dotenv -e .env.fat react-app-rewired start",
+    "serve:uat": "dotenv -e .env.uat react-app-rewired start",
+    "serve:prod": "dotenv -e .env.prod react-app-rewired start",
+    "build:fat": "dotenv -e .env.fat react-app-rewired build",
+    "build:uat": "dotenv -e .env.uat react-app-rewired build",
+    "build:prod": "dotenv -e .env.prod react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router": "^5.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.29",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "dotenv-cli": "^3.1.0",
+    "node-sass": "^4.13.1",
+    "react-app-rewired": "^2.1.5",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.7.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
