@@ -7,9 +7,7 @@ import api from './api';
 export default class App extends React.Component<any, any> {
 
   componentDidMount(): void {
-    console.log('App mounted~~~~~');
     this.apiTest();
-    console.log('REACT_APP_ENV, ', process.env.REACT_APP_ENV);
   }
 
   private async apiTest(): Promise<any> {
