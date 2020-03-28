@@ -15,3 +15,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 commit之前增加hooks强制校验commit信息，引入yorkie
 
 引入react-router-dom组件路由
+
+scss文件导入公共样式文件，引入sass-resources-loader
