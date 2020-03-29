@@ -5,7 +5,7 @@ const resolve = (dir) => {
 };
 
 const {
-  override, overrideDevServer, addWebpackAlias, disableEsLint, adjustStyleLoaders, addPostcssPlugins
+  override, overrideDevServer, addWebpackAlias, adjustStyleLoaders, addPostcssPlugins
 } = require('customize-cra');
 
 const devServerConfig = () => config => {
@@ -22,7 +22,6 @@ const devServerConfig = () => config => {
 
 module.exports = {
   webpack: override(
-    disableEsLint(),
     addWebpackAlias({
       '@': resolve('src'),
     }),

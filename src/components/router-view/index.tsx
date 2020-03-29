@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 const RouterView = (props: any) => (
-  <div>
+  <Fragment>
     {props.children}
-  </div>
+  </Fragment>
 );
 
 export default RouterView;

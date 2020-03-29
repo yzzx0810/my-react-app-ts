@@ -44,7 +44,7 @@
     "extends": "react-app"
   },
   "gitHooks": {
-    "commit-msg": "node scripts/verify-commit-msg.js"
+    "commit-msg": "node scripts/verify-commit-msg.ts"
   },
   "config": {
     "commitizen": {
